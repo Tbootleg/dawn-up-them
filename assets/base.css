@@ -2886,3 +2886,52 @@ details-disclosure > details {
 .font-body-bold {
   font-weight: var(--font-body-weight-bold);
 }
+
+/* CUSTOM CSS */
+
+.header-wrapper{
+  background: #000000;
+}
+.announcement-bar {
+  background: #000000;
+  border-bottom: 1px solid #ffffff;
+}
+.announcement-bar__message {
+  color: #ffffff;
+}
+.header-wrapper .header__inline-menu .list-menu--inline .header__active-menu-item {
+  color: red;
+  text-decoration: none;
+}
+.header-wrapper .header__inline-menu .list-menu--inline li a {
+  color: #ffffff;
+}
+.header-wrapper .header__inline-menu .list-menu--inline li a:hover {
+  color: #ff0000;
+  text-decoration: none;
+}
+.header__menu-item {
+  color: #ffffff;
+}
+.header__menu-item:hover {
+  color: #ff0000;
+  text-decoration: none;
+}
+.header__submenu {
+  background: #000000;
+}
+.header__heading-logo {
+  max-width: 180px!important;
+}
+.header__icon .icon {
+  color: #ffffff;
+}
+.page-width {
+  max-width: 1600px;
+}
+.link {
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: none;
+}
