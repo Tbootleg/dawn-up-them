@@ -2886,39 +2886,3 @@ details-disclosure > details {
 .font-body-bold {
   font-weight: var(--font-body-weight-bold);
 }
-
-/* Custom Css */
-
-.header-wrapper,
-.announcement-bar {
-  background: #000000;
-}
-.announcement-bar {
-  border-bottom: 1px solid #ffffff;
-}
-.announcement-bar .announcement-bar__message {
-  color: #ffffff;
-}
-.header__inline-menu .list-menu li span {
-  color: #ffffff;
-}
-.header__icon span {
-  color: #ffffff;
-}
-.header__icon--cart .icon {
-  color: #ffffff;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
