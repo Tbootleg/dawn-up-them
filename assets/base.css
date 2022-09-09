@@ -249,7 +249,7 @@ html.no-js .no-js-hidden {
   }
 
   .page-width-desktop {
-    max-width: var(--page-width);
+    max-width: 1600px;
     padding: 0 5rem;
   }
 }
@@ -2929,9 +2929,53 @@ details-disclosure > details {
 .page-width {
   max-width: 1600px;
 }
-.link {
-  text-decoration: none;
+
+/* PORTFOLIO PAGE */
+
+.portfolio-grid {
+  line-height: 0;
+  column-count: 4;
+  column-gap: 25px;
 }
-.link:hover {
-  text-decoration: none;
+.portfolio-grid img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 25px;
 }
+
+@media (max-width: 1600px) {
+  .portfolio-grid {
+    column-count: 3;
+  }
+}
+@media (max-width: 1000px) {
+  .portfolio-grid {
+    column-count: 3;
+  }
+}
+@media (max-width: 989px) {
+  .portfolio-grid {
+    column-count: 2;
+  }
+}
+@media (max-width: 400px) {
+  .portfolio-grid {
+    column-count: 1;
+  }
+}
+
+.blog-content-w-img {
+  column-count: 2;
+  column-gap: 25px;
+}
+
+.blog-content-w-img--img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 25px;
+}
+
+
+
+
+
