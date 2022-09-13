@@ -2976,6 +2976,17 @@ details-disclosure > details {
 }
 
 
+/*BRANDS SECTION*/
+
+.brands-section {
+  background: #000000;
+}
+.brands-section--heading {
+  color: #ffffff;
+}
+.brands-section--subtext {
+  color: yellow;
+}
 
 
 
