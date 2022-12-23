@@ -2986,7 +2986,48 @@ details-disclosure > details {
 }
 .brands-section--subtext {
   color: yellow;
+  font-size: 30px;
 }
+
+/*FOOTER*/
+
+.section-footer-padding {
+  background: #393f44;
+}
+.footer__content-bottom {
+  background: #000000;
+}
+.footer__content-top .footer-block__heading, 
+.footer-block__details-content p {
+  color: #ffffff;
+}
+.footer-block--menu .footer-block__details-content .link--text {
+  color: #ffffff;
+}
+.section-footer-padding {
+  padding-bottom: 0px!important;
+}
+.swiper {
+  position: flex;
+  width: 100%;
+  height: auto;
+  background: #000000;
+}
+.swiper-slide {
+  text-align: center;
+  max-width: 250px;
+}
+.brands-feed--logo {
+  vertical-align: top;
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
 
 
 
