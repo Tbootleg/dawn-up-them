@@ -269,6 +269,20 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "e4de9a6d-a24d-41e9-a28d-9d23ed25a292": {
+      "type": "video-background-banner",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "heading": "100 Percent Custom Prints",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/78b9ddf549154f9c8ee8d75cd3862503.mov",
+        "link_text": "Get A Quote",
+        "link_url": "",
+        "blur": 0,
+        "opacity": 1
+      }
     }
   },
   "order": [
@@ -281,6 +295,7 @@
     "multicolumn",
     "featured_collection",
     "166273800325127e4e",
-    "bff7a229-1088-4ac4-88de-3f948be66570"
+    "bff7a229-1088-4ac4-88de-3f948be66570",
+    "e4de9a6d-a24d-41e9-a28d-9d23ed25a292"
   ]
 }
