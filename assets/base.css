@@ -2930,6 +2930,21 @@ details-disclosure > details {
   max-width: 1600px;
 }
 
+/*SERVICES GRID*/
+.service-multicolumn .multicolumn-card__image-wrapper{
+  padding: 0;
+  margin: 0;
+}
+.service-multicolumn .multicolumn-card {
+  box-shadow: 0 4px 10px 0 rgb(0 0 0 / 10%);
+}
+
+@media screen and (min-width: 990px) {
+.grid--2-col-desktop .grid__item {
+    width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
+    max-width: calc(50% - var(--grid-desktop-horizontal-spacing) - 11px);
+}
+}
 /* PORTFOLIO PAGE */
 
 .portfolio-grid {
