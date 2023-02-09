@@ -2989,6 +2989,21 @@ details-disclosure > details {
   font-size: 30px;
 }
 
+/*QUOTE REQUEST FORM*/
+.globo-form-app .globo-form-control .globo-label {
+  display:none;
+}
+.globo-form-id-105798 .globo-form-app {
+    max-width: 900px;
+    width: -webkit-fill-available;
+    background-color: #FFF;
+}
+.globo-heading {
+  text-align:center;
+}
+
+
+
 /*FOOTER*/
 
 .section-footer-padding {
