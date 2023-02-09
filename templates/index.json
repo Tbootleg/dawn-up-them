@@ -1,12 +1,17 @@
 {
   "sections": {
-    "c3b66e3c-515b-46ea-80d4-2bb406bcd541": {
-      "type": "custom-liquid",
+    "e4de9a6d-a24d-41e9-a28d-9d23ed25a292": {
+      "type": "video-background-banner",
+      "custom_css": [
+
+      ],
       "settings": {
-        "custom_liquid": "<style>\nvideo {\n\tdisplay: block;\n\tmargin: 0 auto;\n\twidth: 100%;\n\theight: 50%;\n}\n<\/style>\n\n<video autoplay loop playsinline muted>\n<source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/78b9ddf549154f9c8ee8d75cd3862503.mov\">\n<\/video>",
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 52
+        "heading": "100 Percent Custom Prints",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/78b9ddf549154f9c8ee8d75cd3862503.mov",
+        "link_text": "Get A Quote",
+        "link_url": "",
+        "blur": 0,
+        "opacity": 1
       }
     },
     "image_banner": {
@@ -272,7 +277,7 @@
     }
   },
   "order": [
-    "c3b66e3c-515b-46ea-80d4-2bb406bcd541",
+    "e4de9a6d-a24d-41e9-a28d-9d23ed25a292",
     "image_banner",
     "rich_text",
     "collage",
