@@ -280,9 +280,8 @@
       "blocks": {
         "16378ef3-18d0-4e64-8297-f571fea7936a": {
           "type": "shopify:\/\/apps\/powerful-contact-form-builder\/blocks\/app-block\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
-          "disabled": true,
           "settings": {
-            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"xxxx\"><\/div>"
+            "shortcode": "{formbuilder:MTA1Nzk4}"
           }
         }
       },
