@@ -2897,7 +2897,7 @@ details-disclosure > details {
   border-bottom: 1px solid #ffffff;
 }
 .announcement-bar__message {
-  color: #ffffff;
+  color: #fff400;
 }
 .header-wrapper .header__inline-menu .list-menu--inline .header__active-menu-item {
   color: red;
@@ -2983,10 +2983,11 @@ details-disclosure > details {
 }
 .brands-section--heading {
   color: #ffffff;
+  text-align: center;
+  margin-bottom: 0;
 }
-.brands-section--subtext {
-  color: yellow;
-  font-size: 30px;
+#shopify-section-brands-feed .swiper {
+  padding-bottom: 40px;
 }
 
 /*QUOTE REQUEST FORM*/
@@ -2994,9 +2995,9 @@ details-disclosure > details {
   display:none;
 }
 .globo-form-id-105798 .globo-form-app {
-    max-width: 900px;
-    width: -webkit-fill-available;
-    background-color: #FFF;
+  max-width: 900px;
+  width: -webkit-fill-available;
+  background-color: #FFF;
 }
 .globo-heading {
   text-align:center;
