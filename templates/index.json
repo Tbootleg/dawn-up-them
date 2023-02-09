@@ -14,23 +14,6 @@
         "opacity": 1
       }
     },
-    "image_banner": {
-      "type": "image-banner",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/cc6998_a160991ce7eb43ba9c8fcacb80ce6ba1_mv2.png",
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -61,101 +44,42 @@
         "padding_bottom": 0
       }
     },
-    "collage": {
-      "type": "collage",
+    "4fadf6aa-91a2-4529-9173-7395656ba534": {
+      "type": "services-multicolumn",
       "blocks": {
-        "collection-0": {
-          "type": "collection",
+        "template--15954713641123__4fadf6aa-91a2-4529-9173-7395656ba534-167597070361f13506-0": {
+          "type": "column",
           "settings": {
-            "collection": ""
+            "image": "shopify:\/\/shop_images\/press-image.webp",
+            "title": "Screenprinting",
+            "text": "<p>Lets gret your desin on the press and makie it a reality.<\/p>",
+            "link_label": "Learn More",
+            "link": "shopify:\/\/pages\/screen-printing"
           }
         },
-        "product": {
-          "type": "product",
+        "template--15954713641123__4fadf6aa-91a2-4529-9173-7395656ba534-167597070361f13506-1": {
+          "type": "column",
           "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
+            "image": "shopify:\/\/shop_images\/embroidery-image.webp",
+            "title": "Embroidery",
+            "text": "<p>Add a professional look to your work shirts and hats.<\/p>",
+            "link_label": "Learn More",
+            "link": "shopify:\/\/pages\/embroidery"
           }
         }
       },
       "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
+        "template--15954713641123__4fadf6aa-91a2-4529-9173-7395656ba534-167597070361f13506-0",
+        "template--15954713641123__4fadf6aa-91a2-4529-9173-7395656ba534-167597070361f13506-1"
       ],
       "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
+        "title": "Multicolumn",
         "heading_size": "h1",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "brands-feed": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pines Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pines Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pines Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
+        "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
@@ -165,50 +89,53 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn": {
-      "type": "multicolumn",
+    "e53bd1d9-0f26-4107-ba3d-8cf3c9f1da9c": {
+      "type": "services-multicolumn",
       "blocks": {
-        "column1": {
+        "template--15954713641123__e53bd1d9-0f26-4107-ba3d-8cf3c9f1da9c-167597070361f13506-0": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
+            "image": "shopify:\/\/shop_images\/promor-service.webp",
+            "title": "Promotional",
+            "text": "<p>We have an endless amount of products to put your logo on to get your name out there.<\/p>",
+            "link_label": "Learn More",
+            "link": "shopify:\/\/pages\/promotional"
+          }
+        },
+        "template--15954713641123__e53bd1d9-0f26-4107-ba3d-8cf3c9f1da9c-167597070361f13506-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/live-printing-service_4fa52709-b63c-4d93-8cfd-a0a56f2efcf6.webp",
+            "title": "Live Printing",
+            "text": "<p>Have an event? We can print at it. We will even let you pull the squeegee.<\/p>",
+            "link_label": "Learn More",
             "link": ""
           }
         },
-        "column2": {
+        "template--15954713641123__e53bd1d9-0f26-4107-ba3d-8cf3c9f1da9c-167597070361f13506-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/fundraising-service.webp",
+            "title": "Fundraising",
+            "text": "<p>Merch is a great way to generate money for your school or cause. We can help.<\/p>",
+            "link_label": "Learn More",
+            "link": "shopify:\/\/pages\/fundraising"
           }
         }
       },
       "block_order": [
-        "column1",
-        "column2",
-        "column3"
+        "template--15954713641123__e53bd1d9-0f26-4107-ba3d-8cf3c9f1da9c-167597070361f13506-0",
+        "template--15954713641123__e53bd1d9-0f26-4107-ba3d-8cf3c9f1da9c-167597070361f13506-1",
+        "template--15954713641123__e53bd1d9-0f26-4107-ba3d-8cf3c9f1da9c-167597070361f13506-2"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "image_width": "third",
+        "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
+        "column_alignment": "left",
+        "background_style": "primary",
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
@@ -295,12 +222,9 @@
   },
   "order": [
     "e4de9a6d-a24d-41e9-a28d-9d23ed25a292",
-    "image_banner",
     "rich_text",
-    "collage",
-    "video",
-    "brands-feed",
-    "multicolumn",
+    "4fadf6aa-91a2-4529-9173-7395656ba534",
+    "e53bd1d9-0f26-4107-ba3d-8cf3c9f1da9c",
     "featured_collection",
     "166273800325127e4e",
     "bff7a229-1088-4ac4-88de-3f948be66570",
