@@ -1,12 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "embroidery-page",
-      "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
-      }
-    },
     "b258390a-a9e9-4b75-be49-e46ab1aa9b3c": {
       "type": "image-banner",
       "blocks": {
@@ -42,6 +35,7 @@
         "template--16189610098851__b258390a-a9e9-4b75-be49-e46ab1aa9b3c-16760429656b926ad9-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/AdobeStock_171831617_edited_edited.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -52,6 +46,13 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "main": {
+      "type": "embroidery-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
       }
     }
   },
