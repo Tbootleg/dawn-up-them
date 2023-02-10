@@ -189,19 +189,6 @@
         "padding_bottom": 36
       }
     },
-    "bff7a229-1088-4ac4-88de-3f948be66570": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "heading_size": "h1",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "1675962733aa1f856e": {
       "type": "apps",
       "blocks": {
@@ -218,6 +205,49 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "68f7d201-131e-4128-a64f-a0623ab84fac": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15954713641123__68f7d201-131e-4128-a64f-a0623ab84fac-167598367279bb610d-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "37f8a0e2-6061-4cfd-8653-89db0cb20251": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15954713641123__68f7d201-131e-4128-a64f-a0623ab84fac-167598367279bb610d-0",
+        "37f8a0e2-6061-4cfd-8653-89db0cb20251"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -227,7 +257,7 @@
     "e53bd1d9-0f26-4107-ba3d-8cf3c9f1da9c",
     "featured_collection",
     "166273800325127e4e",
-    "bff7a229-1088-4ac4-88de-3f948be66570",
-    "1675962733aa1f856e"
+    "1675962733aa1f856e",
+    "68f7d201-131e-4128-a64f-a0623ab84fac"
   ]
 }
