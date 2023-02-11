@@ -2969,22 +2969,31 @@ details-disclosure > details {
 .screenprinting-service-content .rte {
   width:100%;
 }
+
+.service-page-content-box--screenprinting-capabilites {
+  text-align:left;
+}
+@media screen and (min-width: 750px) {
+.service-page-content-box {
+    padding: 0 5rem;
+}
+}
 .service-page-content-box {
   padding-top: 36px;
   padding-bottom: 36px;
   display: flex;
   align-items:center;
   justify-content:center;
-  max-width:1200px;
+  max-width:1600px;
   background:#f7f7f7;
   margin:0 auto;
   margin-bottom:50px;
 }
-.service-page-content-box--screenprinting-capabilites {
-  text-align:left;
+
+/* PROMOTIONAL PAGE */
+.promotional-multicolumn h2 {
+  display:none;
 }
-
-
 
 /* PORTFOLIO PAGE */
 
