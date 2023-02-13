@@ -2985,10 +2985,44 @@ details-disclosure > details {
   align-items:center;
   justify-content:center;
   max-width:1600px;
-  background:#f7f7f7;
   margin:0 auto;
   margin-bottom:50px;
 }
+.service-page-intro-box {
+  background: #f6f6f6;
+}
+/* SERVICES TABS */
+.service-tab-container .tab {
+  overflow: hidden;
+  margin:0 auto;
+  background:none;
+  border:none;
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  float: left;
+  gap: 20px;
+}
+.service-tab-container .tabcontent {
+  background: #f6f6f6;
+  width: 70%;
+  float: right;
+  border:none;
+}
+.service-tab-container .tab button{
+  background: #393f44;
+  color: white;
+}
+.service-tab-container .tab button:hover{
+  background: #f6f6f6;
+  color: #393f44;
+}
+.service-tab-container .tabcontent .tabImage{
+  border:none;
+  display:block;
+  margin:0 auto;
+}
+
 
 /* PROMOTIONAL PAGE */
 .promotional-multicolumn h2 {
