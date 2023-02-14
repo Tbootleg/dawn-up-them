@@ -2935,10 +2935,17 @@ details-disclosure > details {
   font-family: 'Rajdhani', sans-serif;
   font-weight: 600;
 }
+.hero a {
+  background: #3d9be9;
+  border: none;
+}
 .hero div h1 {
   font-family: 'Rajdhani', sans-serif;
   font-weight: 600;
   text-transform:uppercase;
+}
+.hero .button:after {
+  box-shadow:none;
 }
 .page-width {
   max-width: 1200px;
@@ -2991,7 +2998,7 @@ details-disclosure > details {
   text-align:left;
 }
 @media screen and (min-width: 750px) {
-.service-page-content-box {
+.service-page-content-box--inner {
     padding: 0 5rem;
 }
 }
@@ -3001,51 +3008,89 @@ details-disclosure > details {
   display: flex;
   align-items:center;
   justify-content:center;
-  max-width:1200px;
+  max-width:1400px;
   margin:0 auto;
   margin-bottom:50px;
 }
-.service-page-intro-box {
+.service-page-intro-box--inner {
   background: #f6f6f6;
-}
-/* SERVICES TABS */
-.service-tab-container .tab {
-  overflow: hidden;
-  margin:0 auto;
-  background:none;
-  border:none;
-  width: 28%;
-  display: flex;
-  flex-direction: column;
-  float: left;
+  display:flex;
+  align-items: center;
   gap: 20px;
 }
-.service-tab-container .tabcontent {
-  background: #f6f6f6;
-  width: 70%;
-  float: right;
-  border:none;
+/* SERVICES TABS */
+.service-tab-container--inner .tab {
+  background: none;
+  border: none;
 }
-.service-tab-container .tab button{
+.service-tab-container {
+  padding: 40px;
+  padding-top: 0px;
+}
+.service-tab-container--inner {
+  display: flex;
+  gap: 40px;
+}
+.service-tab-container--inner .tab .tab--inner {
+  display:flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.service-tab-container--inner .tab {
+  width: 25%;
+}
+.service-tab-container--inner .tab-content-container {
+  width: 75%;
+}
+.service-tab-container--inner .tabcontent {
+    background: #f6f6f6;
+    border: none;
+    padding: 10px 50px;
+}
+.service-tab-container--inner .tab button{
   background: #393f44;
   color: white;
 }
-.service-tab-container .tab button:hover{
+.service-tab-container--inner .tab button:hover{
   background: #f6f6f6;
   color: #393f44;
 }
-.service-tab-container .tabcontent .tabImage{
+.service-tab-container--inner .tabcontent .tabImage{
   border:none;
   display:block;
   margin:0 auto;
 }
-
+.service-page-intro-box--inner .service-page-content--image img{
+  width: 100%;
+  height: auto;
+}
+.service-page-intro-box--inner .service-page-content--image {
+  width: 35%;
+  padding-left:20px;
+  padding-top: 30px;
+}
+.service-page-intro-box--inner .service-page-content--text {
+  width: 65%;
+  padding: 50px;
+}
+.service-page-intro-box--inner .service-page-content--text h3 {
+  margin-top: 0px;
+}
 /* SERVICE PAGES */
 
 .service-page-content-box h1 {
   font-family: 'Rajdhani', sans-serif;
   font-weight: 600;
   text-transform: uppercase;
+  margin-top:0px;
+}
+.service-page-content-box p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+.service-page-intro-box {
+  padding: 40px;
+  margin-bottom: 0px;
 }
 
 /* PROMOTIONAL PAGE */
@@ -3055,6 +3100,9 @@ details-disclosure > details {
 }
 
 /* PORTFOLIO PAGE */
+#shopify-section-template--16194443477155__1676395171c0abbb13 {
+  margin-bottom: 40px;
+}
 
 .portfolio-grid {
   line-height: 0;
@@ -3102,6 +3150,9 @@ details-disclosure > details {
 
 /*BRANDS SECTION*/
 
+#shopify-section-brands-feed {
+  margin-top: 40px;
+}
 .brands-section {
   background: #000000;
 }
@@ -3109,12 +3160,19 @@ details-disclosure > details {
   color: #ffffff;
   text-align: center;
   margin-bottom: 0;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 #shopify-section-brands-feed .swiper {
   padding-bottom: 40px;
 }
 
 /*QUOTE REQUEST FORM*/
+
+#shopify-section-globo-quote-form {
+  margin: 40px;
+}
 .globo-form-app .globo-form-control .globo-label {
   display:none;
 }
@@ -3126,19 +3184,12 @@ details-disclosure > details {
 .globo-heading {
   text-align:center;
 }
-
-/*TESTIMONIAL FEED*/
-.testimonial-feed {
-  background: #3d9be9;
+.globo-form-app .header .title {
+  font-family: 'Rajdhani', sans-serif!important;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: calc(var(--font-heading-scale) * 4rem)!important;
 }
-.testimonial-feed-wrapper {
-  max-width: 1200px;
-  display:flex;
-  margin:0 auto;
-  align-items:center;
-}
-/*QUOTE REQUEST FORM*/
-
 .globo-form-app .globo-form-control input, .globo-form-app .globo-form-control textarea, .globo-form-app .globo-form-control select {
   background: #d8d8d8;
 }
@@ -3150,7 +3201,36 @@ details-disclosure > details {
     max-width: 900px!important;
 }
 
+
+/*TESTIMONIAL FEED*/
+#shopify-section-testimonial-feed {
+  margin-bottom: 40px;
+}
+.testimonial-feed {
+  background: #3d9be9;
+}
+.testimonial-feed-wrapper {
+  max-width: 1200px;
+  display:flex;
+  margin:0 auto;
+  align-items:center;
+}
+.testimonial-review p {
+  color: #fff;
+  font-family: 'Rajdhani',sans-serif;
+  font-size: 2.6rem;
+  line-height: 1.3;
+}
+.testimonial-review span {
+  color: #324158;
+  font-weight:600;
+}
+
 /*FOOTER PHOTO GALLLERY*/
+
+#shopify-section-footer-photo-gallery {
+  margin-top: 40px;
+}
 #shopify-section-footer-photo-gallery {
   display:inherit;
 }
