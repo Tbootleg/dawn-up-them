@@ -155,7 +155,7 @@
             "type": "text",
             "settings": {
               "heading": "Contact Us",
-              "subtext": "<ul>Dragline</ul>"
+              "subtext": "<ul>Dragline<\/ul>"
             }
           }
         },
