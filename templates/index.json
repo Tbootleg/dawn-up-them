@@ -14,36 +14,6 @@
         "opacity": 1
       }
     },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
     "4fadf6aa-91a2-4529-9173-7395656ba534": {
       "type": "services-multicolumn",
       "blocks": {
@@ -73,7 +43,7 @@
         "template--15954713641123__4fadf6aa-91a2-4529-9173-7395656ba534-167597070361f13506-1"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "WHAT WE DO",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -193,7 +163,6 @@
   },
   "order": [
     "e4de9a6d-a24d-41e9-a28d-9d23ed25a292",
-    "rich_text",
     "4fadf6aa-91a2-4529-9173-7395656ba534",
     "e53bd1d9-0f26-4107-ba3d-8cf3c9f1da9c",
     "featured_collection",
