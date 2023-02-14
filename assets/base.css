@@ -442,7 +442,10 @@ h3,
 @media only screen and (min-width: 750px) {
   h3,
   .h3 {
-    font-size: calc(var(--font-heading-scale) * 1.8rem);
+    font-size: calc(var(--font-heading-scale) * 2.8rem);
+    font-family: 'Rajdhani',sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
   }
 }
 
@@ -2905,6 +2908,8 @@ details-disclosure > details {
 }
 .header-wrapper .header__inline-menu .list-menu--inline li a {
   color: #ffffff;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 600;
 }
 .header-wrapper .header__inline-menu .list-menu--inline li a:hover {
   color: #ff0000;
@@ -2925,6 +2930,15 @@ details-disclosure > details {
 }
 .header__icon .icon {
   color: #ffffff;
+}
+.header__menu-item span {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 600;
+}
+.hero div h1 {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 600;
+  text-transform:uppercase;
 }
 .page-width {
   max-width: 1200px;
@@ -2962,6 +2976,9 @@ details-disclosure > details {
   margin: 0;
   padding: 40px;
   text-align: center;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 .screenprinting-service-content .service-page-content--image img {
   border: none;
@@ -3023,8 +3040,16 @@ details-disclosure > details {
   margin:0 auto;
 }
 
+/* SERVICE PAGES */
+
+.service-page-content-box h1 {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
 
 /* PROMOTIONAL PAGE */
+
 .promotional-multicolumn h2 {
   display:none;
 }
