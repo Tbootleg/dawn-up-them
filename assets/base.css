@@ -3225,6 +3225,17 @@ details-disclosure > details {
   color: #324158;
   font-weight:600;
 }
+.testimonial-image img {
+  width: 100%;
+  height: auto; 
+}
+.testimonial-image {
+  width: 40%;
+}
+.testimonial-review {
+  width: 60%;
+}
+
 
 /*FOOTER PHOTO GALLLERY*/
 
