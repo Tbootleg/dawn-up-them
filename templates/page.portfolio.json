@@ -6,9 +6,28 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "1676395171c0abbb13": {
+      "type": "apps",
+      "blocks": {
+        "14bdfa7b-d56a-4bfe-be58-24cc6254ed1d": {
+          "type": "shopify:\/\/apps\/xo-gallery\/blocks\/xo-gallery\/e61dfbaa-1a75-4e4e-bffc-324f17325251",
+          "settings": {
+            "type": "gallery",
+            "id": 1
+          }
+        }
+      },
+      "block_order": [
+        "14bdfa7b-d56a-4bfe-be58-24cc6254ed1d"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1676395171c0abbb13"
   ]
 }
