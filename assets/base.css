@@ -3113,6 +3113,7 @@ details-disclosure > details {
   align-items:center;
 }
 /*QUOTE REQUEST FORM*/
+
 .globo-form-app .globo-form-control input, .globo-form-app .globo-form-control textarea, .globo-form-app .globo-form-control select {
   background: #d8d8d8;
 }
@@ -3122,7 +3123,26 @@ details-disclosure > details {
 }
 .globo-form-id-105798 .globo-form-app {
     max-width: 900px!important;
-}    
+}
+
+/*FOOTER PHOTO GALLLERY*/
+#shopify-section-footer-photo-gallery {
+  display:inherit;
+}
+.footer-photo-gallery {
+  display: inline-block;
+  width: 100%;
+}
+.footer-photo-gallery-container {
+  display:flex;
+}
+.footer-photo-gallery--photo {
+  width:100%;
+  height:auto;
+  display:block;
+}
+
+
 /*FOOTER*/
 
 .section-footer-padding {
@@ -3155,6 +3175,9 @@ details-disclosure > details {
   vertical-align: top;
   width: 100%;
   height: auto;
+}
+.footer {
+  margin-top: 0px!important;
 }
 
 
