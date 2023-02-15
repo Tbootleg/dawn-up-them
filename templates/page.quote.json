@@ -1,53 +1,5 @@
 {
   "sections": {
-    "b258390a-a9e9-4b75-be49-e46ab1aa9b3c": {
-      "type": "image-banner",
-      "blocks": {
-        "template--16189610098851__b258390a-a9e9-4b75-be49-e46ab1aa9b3c-16760429656b926ad9-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Screen Printing",
-            "heading_size": "h1"
-          }
-        },
-        "template--16189610098851__b258390a-a9e9-4b75-be49-e46ab1aa9b3c-16760429656b926ad9-1": {
-          "type": "text",
-          "settings": {
-            "text": "We pride ourselves on the quality of prints that we do. Our experience, top of the line equipment and boundless passion will ensure that you get exactly what your looking for.",
-            "text_style": "body"
-          }
-        },
-        "template--16189610098851__b258390a-a9e9-4b75-be49-e46ab1aa9b3c-16760429656b926ad9-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "",
-            "button_link_1": "",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16189610098851__b258390a-a9e9-4b75-be49-e46ab1aa9b3c-16760429656b926ad9-0",
-        "template--16189610098851__b258390a-a9e9-4b75-be49-e46ab1aa9b3c-16760429656b926ad9-1",
-        "template--16189610098851__b258390a-a9e9-4b75-be49-e46ab1aa9b3c-16760429656b926ad9-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/press-image.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-right",
-        "show_text_box": true,
-        "desktop_content_alignment": "left",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "main": {
       "type": "quote-page",
       "settings": {
@@ -57,7 +9,6 @@
     }
   },
   "order": [
-    "b258390a-a9e9-4b75-be49-e46ab1aa9b3c",
     "main"
   ]
 }
