@@ -3018,7 +3018,17 @@ details-disclosure > details {
   align-items: center;
   gap: 20px;
 }
+
+/* SERVICES SCREEN PRINTING */
+
+.promotional-multicolumn .page-width {
+  max-width: 1400px;
+  padding: 40px;
+}
+
+
 /* SERVICES TABS */
+
 .service-tab-container--inner .tab {
   background: none;
   border: none;

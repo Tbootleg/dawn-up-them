@@ -27,117 +27,51 @@
       <h1 class="service-page-tagline--tagline">Everyone Loves Swag</h1>
     </div>
     <div class="service-page-content-box service-page-intro-box">
-      <div class="service-page-content--image">
-        <img class="" src="https://cdn.shopify.com/s/files/1/0621/6223/9651/files/jibitz-no-background.webp?v=1676064477">
-      </div>
-      <div class="service-page-content--text">
-        <h3>Endless Options</h3>
-        <p>We have a massive selection of promotional products ready to have your logo on them. This is a great way to show off your brand and promote interest from new potential customers.</p>
-        <p>Hit us up and we will help you find the perfect product for your needs.</p>
+      <div class="service-page-intro-box--inner">
+        <div class="service-page-content--image">
+          <img class="" src="https://cdn.shopify.com/s/files/1/0621/6223/9651/files/jibitz-no-background.webp?v=1676064477">
+        </div>
+        <div class="service-page-content--text">
+          <h3>Endless Options</h3>
+          <p>We have a massive selection of promotional products ready to have your logo on them. This is a great way to show off your brand and promote interest from new potential customers.</p>
+          <p>Hit us up and we will help you find the perfect product for your needs.</p>
+        </div>
       </div>
     </div>
   </div>
-  <style type="text/css">
+</div>
+  
 
-    .tab {
-      overflow: hidden;
-      border: 1px solid #ccc;
-      background-color: #f1f1f1;
-      max-width:1600px;
-      margin:0 auto;
+  {% schema %}
+  {
+    "name": "t:sections.main-page.name",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
     }
-
-/* Style the buttons that are used to open the tab content */
-.tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-}
-
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #ddd;
-}
-
-/* Create an active/current tablink class */
-.tab button.active {
-  background-color: #ccc;
-}
-
-/* Style the tab content */
-
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-top: none;
-  max-width: 1600px;
-  margin: 0 auto;
-  margin-bottom:50px;
-}
-.standardtabcontent {
-  display:block;
-}'
-
-</style>
-<script type="text/javascript">
-  function openService(evt, serviceName) {
-  // Declare all variables
-  var i, tabcontent, tablinks;
-
-  // Get all elements with class="tabcontent" and hide them
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
+    ]
   }
-
-  // Get all elements with class="tablinks" and remove the class "active"
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-
-  // Show the current tab, and add an "active" class to the button that opened the tab
-  document.getElementById(serviceName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-
-</script>
-
-{% schema %}
-{
-  "name": "t:sections.main-page.name",
-  "tag": "section",
-  "class": "section",
-  "settings": [
-  {
-    "type": "header",
-    "content": "t:sections.all.padding.section_padding_heading"
-  },
-  {
-    "type": "range",
-    "id": "padding_top",
-    "min": 0,
-    "max": 100,
-    "step": 4,
-    "unit": "px",
-    "label": "t:sections.all.padding.padding_top",
-    "default": 36
-  },
-  {
-    "type": "range",
-    "id": "padding_bottom",
-    "min": 0,
-    "max": 100,
-    "step": 4,
-    "unit": "px",
-    "label": "t:sections.all.padding.padding_bottom",
-    "default": 36
-  }
-  ]
-}
-{% endschema %}
+  {% endschema %}
