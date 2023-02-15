@@ -6,144 +6,122 @@
 
 {%- style -%}
 .section-{{ section.id }}-padding {
-  padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-  padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
 }
 
 @media screen and (min-width: 750px) {
-  .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top }}px;
-    padding-bottom: {{ section.settings.padding_bottom }}px;
-  }
+.section-{{ section.id }}-padding {
+  padding-top: {{ section.settings.padding_top }}px;
+  padding-bottom: {{ section.settings.padding_bottom }}px;
+}
 }
 {%- endstyle -%}
 
 <div class="screenprinting-service-content page-width page-width--narrow section-{{ section.id }}-padding">
-  <h1 class="main-page-title page-title h0">
-    {{ page.title | escape }}
-  </h1>
-  <div class="rte">
-    <div class="service-page-tagline--container">
-      <h1 class="service-page-tagline--tagline">Fresh Prints Daily</h1>
-    </div>
-    <div class="service-page-content-box service-page-intro-box">
+<h1 class="main-page-title page-title h0">
+  {{ page.title | escape }}
+</h1>
+<div class="rte">
+  <div class="service-page-tagline--container">
+    <h1 class="service-page-tagline--tagline">We Mastered The Perfect Stitch</h1>
+  </div>
+  <div class="service-page-content-box service-page-intro-box">
+    <div class="service-page-intro-box--inner">
       <div class="service-page-content--image">
-        <img class="" src="https://cdn.shopify.com/s/files/1/0621/6223/9651/files/cc6998_dd7f64ea563e4300bcc37ec166766b70_mv2.webp?v=1676046786">
+        <img class="" src="https://cdn.shopify.com/s/files/1/0621/6223/9651/files/updated-emboider-hat.png?v=1676480778">
       </div>
       <div class="service-page-content--text">
-        <h3>Let's Make Your Design A Reality</h3>
-        <p>Screen printing will give you the best quality print. If it's 12 shirts or 3000, we got you covered. We have an endless amount of colors and garment options to choose from.</p>
+        <h3>Tons Of Options</h3>
+        <p>Everyone likes the embroidery look. Need Nike golf polos, New Era caps, or a Carhartt duffle? Whatever you need, we can find it and have it embroidered for you!</p>
       </div>
     </div>
-    <div class="service-page-content-box service-page-content-box--screenprinting-capabilites">  
-      <h1>Screen Printing Capabilites</h1> 
-    </div>
-    <div class="service-page-content-box service-tab-container">
-    <div class="tab">
-      <button class="tablinks" onclick="openService(event, 'StandardPrinting')">Standard Printing</button>
-      <button class="tablinks" onclick="openService(event, 'WaterBased')">Water Based/Discharge</button>
-      <button class="tablinks" onclick="openService(event, 'SimulatedProcess')">Simulated Process</button>
-      <button class="tablinks" onclick="openService(event, 'PuffSuede')">PuffSuede</button>
-      <button class="tablinks" onclick="openService(event, 'MetallicGlitterFoil')">Metallic/Glitter/Foil</button>
-    </div>
-    <div id="StandardPrinting" class="standardtabcontent tabcontent">
-      <h3>Standard Printing</h3>
-      <p>Have a design you are ready to see on a garment or item of your choice?</p>
-      <p>We will accommodate orders of any size and have a huge inventory of apparel/item options for you to choose from to be printed on. T-shirts? Of course. Tank tops? You bet. Hoodies? For sure. What about tote bags, table clothes, hats, or umbrellas? Absolutely! And plenty more. Contact us to get started on an order or to get a quote.</p>
-      <p>If you are new to having items printed and aren’t sure where to start, no worries, we got you! Let us know what you have in mind and we’ll have some recommendations ready to help bring your vision to life.</p>
-      <img class="tabImage" src="https://cdn.shopify.com/s/files/1/0621/6223/9651/files/standard-printing.webp?v=1676053145">
-    </div>
-    <div id="WaterBased" class="tabcontent">
-      <h3>Water Based/Discharge</h3>
-      <p>Using water based inks provides the opportunity for your design to be embedded into the fabric/item of your choice as opposed to being printed on top. The outcome leaves you with a super soft printing effect. Think, your favorite vintage tee.</p>
-      <p>Similarly, we also have discharge inks. Discharge inks are water based too, but instead of embedding into the fibers of what they’re being used on they basically re-dye the garment/items to a new color. So now think, your favorite bleached vintage tee.</p>
-      <p>For apparel items, these types of inks are best suited for primarily cotton based garments. With that said, this means they can also be a great choice for paper items too!</p>
-      <img class="tabImage" src="https://cdn.shopify.com/s/files/1/0621/6223/9651/files/waterbased.webp?v=1676053233">
-    </div>
-    <div id="SimulatedProcess" class="tabcontent">
-      <h3>Simulated Process</h3>
-      <p>If you have a complex design or high-resolution image (such as a photo) you want to get printed, we can use simulated process printing to provide you with the highest quality print to showcase the details in your design.</p>
-      <p>Simulated process printing requires individual colors from your design to first be separated completely and then re-layered with one another upon final printing. The color separation part of the process does incur additional charges due to the extensive nature of ensuring the colors will seamlessly transition into a high clarity print.</p>
-      <img class="tabImage" src="https://cdn.shopify.com/s/files/1/0621/6223/9651/files/process.webp?v=1676053299">
-    </div>
-    <div id="PuffSuede" class="tabcontent">
-      <h3>Puff Suede</h3>
-      <p>Appeal to another one of the senses, touch! Add some texture to your design by requesting puff or suede additives to your ink print that will make your designs feel as impressive as they look.</p>
-      <img class="tabImage" src="https://cdn.shopify.com/s/files/1/0621/6223/9651/files/puff.webp?v=1676053264">
-    </div>
-    <div id="MetallicGlitterFoil" class="tabcontent">
-      <h3>Metallic, Glitter & Foil</h3>
-      <p>Let your design stand out and demand the attention it deserves! You can request metallic, glitter, or foil ink options to apply as accents or even for your entire design.</p>
-      <img class="tabImage" src="https://cdn.shopify.com/s/files/1/0621/6223/9651/files/foil.webp?v=1676053350">
+  </div>
+  <div class="service-page-content-box service-tab-container">
+    <h1>Embroidery Capabilites</h1> 
+    <div class="service-tab-container--inner">  
+      <div class="tab">
+        <div class="tab--inner">
+          <button class="tablinks" onclick="openService(event, 'Embroidery')">Embroidery</button>
+        </div>
+      </div>
+     <div class="tab-content-container"> 
+      <div id="Embroidery" class="standardtabcontent tabcontent">
+        <h3>Embroidery</h3>
+        <p>You already know we do printing, but we also offer a variety of embroidery services. From commercial branding to personalization items, let us know what kind of stitch work you’re looking for. Similar to traditional printing, our standard embroidery process affords you countless options of materials/items to meet your embroidery needs.</p>
+        <p>Embroidery will require your design file to be digitized. If you don’t already have a digitized file we can take care of that for you. Cost for digitization depends on design complexity. </p>
+        <img class="tabImage" src="https://cdn.shopify.com/s/files/1/0621/6223/9651/files/lion-fight.png?v=1676480966">
+      </div>
     </div>
   </div>
   </div>
-  <style type="text/css">
+</div>
+<style type="text/css">
 
-    .tab {
-      overflow: hidden;
-      border: 1px solid #ccc;
-      background-color: #f1f1f1;
-      margin:0 auto;
-    }
+  .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    margin:0 auto;
+  }
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
+background-color: inherit;
+float: left;
+border: none;
+outline: none;
+cursor: pointer;
+padding: 14px 16px;
+transition: 0.3s;
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+background-color: #ddd;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #ccc;
+background-color: #ccc;
 }
 
 /* Style the tab content */
 
 .tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-top: none;
-  margin: 0 auto;
-  margin-bottom:50px;
+display: none;
+padding: 6px 12px;
+border: 1px solid #ccc;
+border-top: none;
+margin: 0 auto;
+margin-bottom:50px;
 }
 .standardtabcontent {
-  display:block;
+display:block;
 }
 .service-tab-container { 
-  display:block;
+display:block;
 }
 
 </style>
 <script type="text/javascript">
-  function openService(evt, serviceName) {
-  // Declare all variables
+function openService(evt, serviceName) {
+// Declare all variables
   var i, tabcontent, tablinks;
 
-  // Get all elements with class="tabcontent" and hide them
+// Get all elements with class="tabcontent" and hide them
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
   }
 
-  // Get all elements with class="tablinks" and remove the class "active"
+// Get all elements with class="tablinks" and remove the class "active"
   tablinks = document.getElementsByClassName("tablinks");
   for (i = 0; i < tablinks.length; i++) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
 
-  // Show the current tab, and add an "active" class to the button that opened the tab
+// Show the current tab, and add an "active" class to the button that opened the tab
   document.getElementById(serviceName).style.display = "block";
   evt.currentTarget.className += " active";
 }
@@ -152,34 +130,34 @@
 
 {% schema %}
 {
-  "name": "t:sections.main-page.name",
-  "tag": "section",
-  "class": "section",
-  "settings": [
-  {
-    "type": "header",
-    "content": "t:sections.all.padding.section_padding_heading"
-  },
-  {
-    "type": "range",
-    "id": "padding_top",
-    "min": 0,
-    "max": 100,
-    "step": 4,
-    "unit": "px",
-    "label": "t:sections.all.padding.padding_top",
-    "default": 36
-  },
-  {
-    "type": "range",
-    "id": "padding_bottom",
-    "min": 0,
-    "max": 100,
-    "step": 4,
-    "unit": "px",
-    "label": "t:sections.all.padding.padding_bottom",
-    "default": 36
-  }
-  ]
+"name": "t:sections.main-page.name",
+"tag": "section",
+"class": "section",
+"settings": [
+{
+  "type": "header",
+  "content": "t:sections.all.padding.section_padding_heading"
+},
+{
+  "type": "range",
+  "id": "padding_top",
+  "min": 0,
+  "max": 100,
+  "step": 4,
+  "unit": "px",
+  "label": "t:sections.all.padding.padding_top",
+  "default": 36
+},
+{
+  "type": "range",
+  "id": "padding_bottom",
+  "min": 0,
+  "max": 100,
+  "step": 4,
+  "unit": "px",
+  "label": "t:sections.all.padding.padding_bottom",
+  "default": 36
+}
+]
 }
 {% endschema %}

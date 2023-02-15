@@ -3046,23 +3046,31 @@ details-disclosure > details {
     background: #f6f6f6;
     border: none;
     padding: 10px 50px;
+    padding-bottom: 0px;
 }
-.service-tab-container--inner .tab button{
+.service-tab-container--inner .tab button {
   background: #393f44;
   color: white;
 }
-.service-tab-container--inner .tab button:hover{
+.service-tab-container--inner .tab button:hover {
   background: #f6f6f6;
   color: #393f44;
 }
-.service-tab-container--inner .tabcontent .tabImage{
+.service-tab-container--inner .tabcontent .tabImage {
   border:none;
   display:block;
   margin:0 auto;
 }
+.service-tab-container--inner #WaterBased .tabImage {
+  padding: 40px 20px;
+}
 .service-page-intro-box--inner .service-page-content--image img{
   width: 100%;
   height: auto;
+}
+.service-page-intro-box--inner .service-page-content--image .shirt-image{
+  vertical-align: bottom;
+  margin-bottom: 0px;
 }
 .service-page-intro-box--inner .service-page-content--image {
   width: 35%;
@@ -3227,7 +3235,8 @@ details-disclosure > details {
 }
 .testimonial-image img {
   width: 100%;
-  height: auto; 
+  height: auto;
+  vertical-align: bottom; 
 }
 .testimonial-image {
   width: 40%;
