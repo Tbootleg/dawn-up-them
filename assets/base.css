@@ -2970,6 +2970,69 @@ details-disclosure > details {
   color: #fff;
   background: #242323;
 }
+
+/*WE PRINT SECTION*/
+
+.why-us-section {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.why-us-section--inner {
+  display: flex;
+  padding: 40px;
+  gap: 40px;
+}
+.why-us-content--text{
+  width: 70%;
+  padding: 40px; 
+}
+.why-us-content--text h1{
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.why-us-content--text h2{
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 28px;
+}
+.why-us-content--text p{
+  font-family: 'Roboto',sans-serif;
+  font-size: 20px;
+}
+.why-us-content--video{
+  width: 30%;
+}
+.why-us-content--text ul{
+  position:relative;
+  padding-left:80px;
+}
+.why-us-content--text li{
+  list-style:none;
+}
+.why-us-content--text li::before{
+}
+.why-us-content--text li:first-of-type::before{
+  content: "1";
+}
+.why-us-content--text li:nth-of-type(2)::before{
+  content: "2"; 
+}
+.why-us-content--text li:nth-of-type(3)::before{
+  content: "3";
+}
+.why-us-content--text li::before{
+  font-size: 30px;
+  display: inline-block;
+  color: white;
+  background: black;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  position: absolute;
+  left: 0;
+}
 /*SERVICES GRID*/
 
 .service-multicolumn .multicolumn-card__image-wrapper{
