@@ -2951,7 +2951,27 @@ details-disclosure > details {
   max-width: 1200px;
 }
 
+/*WE PRINT SECTION*/
+
+.we-love-printing-multicolumn {
+  background-image: url(https://cdn.shopify.com/s/files/1/0621/6223/9651/files/AdobeStock_287102114_edited_edited_1.jpg?v=1676488676);
+}
+.we-love-printing-multicolumn .title {
+  color: #fff;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 600;
+  text-transform:uppercase;
+  margin:0 auto;
+}
+.we-love-printing-multicolumn .multicolumn-card__info h3{
+  color: #fff;
+}
+.we-love-printing-multicolumn .multicolumn-card__info {
+  color: #fff;
+  background: #242323;
+}
 /*SERVICES GRID*/
+
 .service-multicolumn .multicolumn-card__image-wrapper{
   padding: 0;
   margin: 0;
