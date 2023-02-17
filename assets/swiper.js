@@ -8,6 +8,10 @@ const swiper = new Swiper('.swiper', {
   setWrapperSize: true,
   autoHeight: true,
 
+  autoplay: {
+    delay: 3000,
+  },
+
   // If we need pagination
   pagination: {
     el: '.swiper-pagination',

@@ -38,6 +38,16 @@
 
 <footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
   {%- if section.blocks.size > 0 or section.settings.newsletter_enable or section.settings.show_social -%}
+  <div class="footer-tagline-container">
+    <div class="footer-tagline--inner">
+      <div class="footer-tagline">
+        <h1>Your Austin Screenprinting Experts</h1>
+      </div>
+      <div class="footer-logo">
+        <img src="https://cdn.shopify.com/s/files/1/0621/6223/9651/files/up-site-logo_4x_8f18148d-6b09-4c4e-8702-f6020893ae69.png?v=1662646124">
+      </div>
+  </div>    
+  </div>
     <div class="footer__content-top page-width">
       {%- if section.blocks.size > 0 -%}
         {%- liquid
