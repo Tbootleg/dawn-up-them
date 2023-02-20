@@ -155,7 +155,7 @@
             "type": "text",
             "settings": {
               "heading": "Contact Us",
-              "subtext": "<ul><li><span>13800 Dragline Dr Ste A<br>Austin, TX 78728</span></li><li><span>info@uniqueprints.bix</span></li><li><span>(512) 294-0715</span></li></ul>"
+              "subtext": "<ul><li><span>13800 Dragline Dr Ste A<br>Austin, TX 78728<\/span><\/li><li><span>info@uniqueprints.bix<\/span><\/li><li><span>(512) 294-0715<\/span><\/li><\/ul>"
             }
           }
         },
