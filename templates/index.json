@@ -88,8 +88,8 @@
             "image": "shopify:\/\/shop_images\/fundraising-service.webp",
             "title": "Fundraising",
             "text": "<p>Merch is a great way to generate money for you school or cause. We can help.<\/p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "Learn More",
+            "link": "shopify:\/\/pages\/fundraising"
           }
         }
       },
