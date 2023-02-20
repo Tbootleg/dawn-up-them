@@ -59,8 +59,65 @@
         "padding_bottom": 36
       }
     },
+    "dd54517c-4620-4c0b-9b1e-3f2ed901bee9": {
+      "type": "service-multicolumn-2",
+      "blocks": {
+        "template--15954713641123__dd54517c-4620-4c0b-9b1e-3f2ed901bee9-16769093869eae3261-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/promor-service.webp",
+            "title": "Promotional",
+            "text": "<p>We have and endless amount of products to put your logo on to get your name out there.<\/p>",
+            "link_label": "Learn More",
+            "link": "shopify:\/\/pages\/promotional"
+          }
+        },
+        "template--15954713641123__dd54517c-4620-4c0b-9b1e-3f2ed901bee9-16769093869eae3261-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/live-printing-service_4fa52709-b63c-4d93-8cfd-a0a56f2efcf6.webp",
+            "title": "Live Printing",
+            "text": "<p>Have an event? We can print at it. We will even let you pull the squeegee.<\/p>",
+            "link_label": "Learn More",
+            "link": ""
+          }
+        },
+        "template--15954713641123__dd54517c-4620-4c0b-9b1e-3f2ed901bee9-16769093869eae3261-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fundraising-service.webp",
+            "title": "Fundraising",
+            "text": "<p>Merch is a great way to generate money for you school or cause. We can help.<\/p>",
+            "link_label": "Learn More",
+            "link": "shopify:\/\/pages\/fundraising"
+          }
+        }
+      },
+      "block_order": [
+        "template--15954713641123__dd54517c-4620-4c0b-9b1e-3f2ed901bee9-16769093869eae3261-0",
+        "template--15954713641123__dd54517c-4620-4c0b-9b1e-3f2ed901bee9-16769093869eae3261-1",
+        "template--15954713641123__dd54517c-4620-4c0b-9b1e-3f2ed901bee9-16769093869eae3261-2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "e53bd1d9-0f26-4107-ba3d-8cf3c9f1da9c": {
       "type": "services-multicolumn",
+      "disabled": true,
       "blocks": {
         "template--15954713641123__e53bd1d9-0f26-4107-ba3d-8cf3c9f1da9c-167597070361f13506-0": {
           "type": "column",
@@ -223,6 +280,7 @@
   "order": [
     "e4de9a6d-a24d-41e9-a28d-9d23ed25a292",
     "4fadf6aa-91a2-4529-9173-7395656ba534",
+    "dd54517c-4620-4c0b-9b1e-3f2ed901bee9",
     "e53bd1d9-0f26-4107-ba3d-8cf3c9f1da9c",
     "ee5f8e6e-bb97-49ba-a43d-deb2aa999380",
     "featured_collection",
