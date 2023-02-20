@@ -2952,13 +2952,14 @@ details-disclosure > details {
 }
 
 /*WHAT WE DO SECTION*/
-
+.service-multicolumn-2 .page-width .title-wrapper-with-link h2,
 .service-multicolumn .page-width .title-wrapper-with-link h2{
   width:100%;
   font-family: 'Rajdhani', sans-serif;
   font-weight:600;
   text-align:center;
 }
+.service-multicolumn-2 .multicolumn-card__info .link, 
 .service-multicolumn .multicolumn-card__info .link {
   background: #000000;
   color: #fff;
@@ -2969,18 +2970,36 @@ details-disclosure > details {
 .service-multicolumn .multicolumn-card__info .rte{
   margin-top:0px;
 }
+.service-multicolumn-2 .multicolumn-card__info .rte p,
 .service-multicolumn .multicolumn-card__info .rte p{
   font-family: 'Roboto',sans-serif;
   font-size: 20px;
   font-weight: 300;
   line-height: 1.3;
 }
-.service-multicolumn ul:first-of-type {
+.service-multicolumn .multicolumn-list {
   display:flex;
   justify-content: space-between;
   gap: 20px;
 }
-
+.service-multicolumn-2 .multicolumn-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;  
+}
+.service-multicolumn-2 .grid--3-col-desktop .grid__item{
+  width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 1);
+  max-width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 1);
+}
+.service-multicolumn-2 .title-wrapper-with-link {
+  display:none;
+}
+.service-multicolumn-2 .page-width {
+  padding-top:0px;
+}
+.service-multicolumn .page-width {
+  padding-bottom: 25px;
+}
 /*WE PRINT SECTION*/
 
 .we-love-printing-multicolumn {
@@ -3064,11 +3083,12 @@ details-disclosure > details {
   left: 0;
 }
 /*SERVICES GRID*/
-
+.service-multicolumn-2 .multicolumn-card__image-wrapper,
 .service-multicolumn .multicolumn-card__image-wrapper{
   padding: 0;
   margin: 0;
 }
+.service-multicolumn-2 .multicolumn-card,
 .service-multicolumn .multicolumn-card {
   box-shadow: 0 4px 10px 0 rgb(0 0 0 / 10%);
 }
