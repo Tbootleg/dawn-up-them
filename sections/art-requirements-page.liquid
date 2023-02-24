@@ -6,186 +6,154 @@
 
 {%- style -%}
 .section-{{ section.id }}-padding {
-padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+  padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
 }
 
 @media screen and (min-width: 750px) {
-.section-{{ section.id }}-padding {
-  padding-top: {{ section.settings.padding_top }}px;
-  padding-bottom: {{ section.settings.padding_bottom }}px;
-}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
 }
 {%- endstyle -%}
 
-<div class="screenprinting-service-content page-width page-width--narrow section-{{ section.id }}-padding">
-<h1 class="main-page-title page-title h0">
-  {{ page.title | escape }}
-</h1>
-<div class="rte">
-  <div class="service-page-tagline--container">
-    <h1 class="service-page-tagline--tagline">Fresh Prints Daily</h1>
-  </div>
-  <div class="service-page-content-box service-page-intro-box">
-    <div class="service-page-intro-box--inner">
-      <div class="service-page-content--image">
-        <img class="shirt-image" src="https://cdn.shopify.com/s/files/1/0621/6223/9651/files/cc6998_dd7f64ea563e4300bcc37ec166766b70_mv2.webp?v=1676046786">
-      </div>
-      <div class="service-page-content--text">
-        <h3>Let's Make Your Design A Reality</h3>
-        <p>Screen printing will give you the best quality print. If it's 12 shirts or 3000, we got you covered. We have an endless amount of colors and garment options to choose from.</p>
+<div class="art-requirements-content page-width page-width--narrow section-{{ section.id }}-padding">
+  <div class="rte">
+    <div class="art-requirements-content">
+      <div class="art-requirments--inner">
+        <h1>Art Requirements</h1>
+        <p>To ensure you get a great final product take the time to prepare your artwork for printing following these guidelines.</p>
       </div>
     </div>
-  </div>
-  <div class="service-page-content-box service-tab-container">
-    <h1>Screen Printing Capabilites</h1> 
-    <div class="service-tab-container--inner">  
-      <div class="tab">
-        <div class="tab--inner">
-          <button class="tablinks" onclick="openService(event, 'StandardPrinting')">Standard Printing</button>
-          <button class="tablinks" onclick="openService(event, 'WaterBased')">Water Based/Discharge</button>
-          <button class="tablinks" onclick="openService(event, 'SimulatedProcess')">Simulated Process</button>
-          <button class="tablinks" onclick="openService(event, 'PuffSuede')">Puff/Suede</button>
-          <button class="tablinks" onclick="openService(event, 'MetallicGlitterFoil')">Metallic/Glitter/Foil</button>
+    <div class="art-requirements-content art-requirements-2-column">
+      <div class="art-requirments--inner art-requirment-2-column--inner">
+        <div class="art-requirments-2-column-content">
+          <h1>Print Ready Artwork</h1>
+          <p>Print ready art must be submitted in these formats:<br><strong>Vector Files</strong> - .ai .pdf .eps .svg <br><strong>Raster Files</strong> - .psd .png .jp<br>Raster Files must be 300dpi to print size or larger</p>
         </div>
-      </div>
-     <div class="tab-content-container"> 
-      <div id="StandardPrinting" class="standardtabcontent tabcontent">
-        <h3>Standard Printing</h3>
-        <p>Have a design you are ready to see on a garment or item of your choice?</p>
-        <p>We will accommodate orders of any size and have a huge inventory of apparel/item options for you to choose from to be printed on. T-shirts? Of course. Tank tops? You bet. Hoodies? For sure. What about tote bags, table clothes, hats, or umbrellas? Absolutely! And plenty more. Contact us to get started on an order or to get a quote.</p>
-        <p>If you are new to having items printed and aren’t sure where to start, no worries, we got you! Let us know what you have in mind and we’ll have some recommendations ready to help bring your vision to life.</p>
-        <img class="tabImage" src="https://cdn.shopify.com/s/files/1/0621/6223/9651/files/standard-printing.webp?v=1676053145">
-      </div>
-      <div id="WaterBased" class="tabcontent">
-        <h3>Water Based/Discharge</h3>
-        <p>Using water based inks provides the opportunity for your design to be embedded into the fabric/item of your choice as opposed to being printed on top. The outcome leaves you with a super soft printing effect. Think, your favorite vintage tee.</p>
-        <p>Similarly, we also have discharge inks. Discharge inks are water based too, but instead of embedding into the fibers of what they’re being used on they basically re-dye the garment/items to a new color. So now think, your favorite bleached vintage tee.</p>
-        <p>For apparel items, these types of inks are best suited for primarily cotton based garments. With that said, this means they can also be a great choice for paper items too!</p>
-        <img class="tabImage" src="https://cdn.shopify.com/s/files/1/0621/6223/9651/files/waterbased.webp?v=1676053233">
-      </div>
-      <div id="SimulatedProcess" class="tabcontent">
-        <h3>Simulated Process</h3>
-        <p>If you have a complex design or high-resolution image (such as a photo) you want to get printed, we can use simulated process printing to provide you with the highest quality print to showcase the details in your design.</p>
-        <p>Simulated process printing requires individual colors from your design to first be separated completely and then re-layered with one another upon final printing. The color separation part of the process does incur additional charges due to the extensive nature of ensuring the colors will seamlessly transition into a high clarity print.</p>
-        <img class="tabImage" src="https://cdn.shopify.com/s/files/1/0621/6223/9651/files/process.webp?v=1676053299">
-      </div>
-      <div id="PuffSuede" class="tabcontent">
-        <h3>Puff Suede</h3>
-        <p>Appeal to another one of the senses, touch! Add some texture to your design by requesting puff or suede additives to your ink print that will make your designs feel as impressive as they look.</p>
-        <img class="tabImage" src="https://cdn.shopify.com/s/files/1/0621/6223/9651/files/puff.webp?v=1676053264">
-      </div>
-      <div id="MetallicGlitterFoil" class="tabcontent">
-        <h3>Metallic, Glitter & Foil</h3>
-        <p>Let your design stand out and demand the attention it deserves! You can request metallic, glitter, or foil ink options to apply as accents or even for your entire design.</p>
-        <img class="tabImage" src="https://cdn.shopify.com/s/files/1/0621/6223/9651/files/foil.webp?v=1676053350">
+        <div class="art-requirments-2-column-content">
+          <h1>Non Print Ready Artwork</h1>
+          <p>Avenir Light is a clean and stylish font favored by designers. It's easy on the eyes and a great go to font for titles, paragraphs & more.</p>
+        </div>    
       </div>
     </div>
-  </div>
+    <div class="art-requirements-content art-requirements-3-column">
+      <div class="art-requirments--inner art-requirment-3-column--inner">
+        <div class="art-requirments-3-column-content">
+          <h1>Raster Vs Vector</h1>
+          <p>Raster files are made up of pixels which can not be increased in size without degrading quality, which is why we prefer vector files for screen printing and embroidery. Vector files are made up of equations making them infinitely scalable, without losing quality. Raster files must be 300dpi to print size or larger.</p>
+        </div>
+        <div class="art-requirments-3-column-content">
+          <h1>Raster File</h1>
+          <img src="https://static.wixstatic.com/media/cc6998_32cd79cadc474dd9ae2919119dffc6d8~mv2.png/v1/fill/w_276,h_362,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/cc6998_32cd79cadc474dd9ae2919119dffc6d8~mv2.png" alt="">
+        </div>
+        <div class="art-requirments-3-column-content">
+          <h1>Vector File</h1>
+          <img src="https://static.wixstatic.com/media/cc6998_524b0e5ab56644969691801cfb89080f~mv2.png/v1/fill/w_276,h_362,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/cc6998_524b0e5ab56644969691801cfb89080f~mv2.png" alt="">
+        </div>     
+      </div>
+    </div>
+    <div class="art-requirements-content art-requirements-2-column">
+      <div class="art-requirments--inner art-requirment-2-column--inner">
+        <div class="art-requirments-2-column-content">
+          <h1>Outline Fonts</h1>
+          <p>To open files with fonts we don’t have, you need to create outlines around the fonts. Simply right click the text and hit create outline, or expand your file in the object menu. This ensures the fonts will print how they were intended</p>
+        </div>
+        <div class="art-requirments-2-column-content">
+          <img src="https://static.wixstatic.com/media/cc6998_cdd45d388f8b4bafa5afe3e6c7fd7df4~mv2.jpg/v1/fill/w_940,h_388,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/cc6998_cdd45d388f8b4bafa5afe3e6c7fd7df4~mv2.jpg" alt="">
+        </div>    
+      </div>
+    </div>
+    <div class="art-requirements-content art-requirements-2-column">
+      <div class="art-requirments--inner art-requirment-2-column--inner">
+        <div class="art-requirments-2-column-content">
+          <h1>Include Pantone Colors</h1>
+          <p>We use Pantone Solid Coated for matching colors of ink and thread to your design. To get the most accurate reproduction include the pantone colors in your file.</p>
+          <p>You can easily convert a pantone color in illustrator and photoshop but it’s always recommended to check it to the physical pantone book since screens all display differently.</p>
+        </div>
+        <div class="art-requirments-2-column-content">
+          <h1>Minimum/Max Print Size</h1>
+          <p>For the best results check your fonts are no smaller than 8pt, and lines no thinner than 1 pt. Inverse art and negative space text need even larger sizes to print well.</p>
+          <p>It is helpful to print your design out to size if it has small elements to make sure they will look good when printed and legible from a distance.</p>
+        </div>    
+      </div>
+    </div>
+    <div class="art-requirements-content">
+      <div class="art-requirments--inner">
+        <h1>Art Time</h1>
+        <p>OSI has a full graphic design department. If you don’t have artwork, or your art is not print ready, we can create or re-create for you on an hourly basis. Any artwork that is not print ready can incur an hourly art charge. From a sketch on a napkin, to editing a photo for screen print, OSI can bring your great ideas to life.</p>
+        <p>You can easily convert a pantone color in illustrator and photoshop but it’s always recommended to check it to the physical pantone book since screens all display differently.</p>   
+      </div>
+    </div>
+    <div class="art-requirements-content art-requirements-3-column">
+      <h1>Examples:</h1>
+      <div class="art-requirments--inner art-requirment-3-column--inner">
+        <div class="art-requirments-3-column-content">
+          <img src="https://static.wixstatic.com/media/cc6998_0350257d8ce246af9c444631bd2bb0bc~mv2.png/v1/fill/w_542,h_576,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/cc6998_0350257d8ce246af9c444631bd2bb0bc~mv2.png" alt="">
+        </div>
+        <div class="art-requirments-3-column-content">
+          <img src="https://static.wixstatic.com/media/cc6998_c5a3af3e395949779e7f24eb1cfa7a7d~mv2.png/v1/fill/w_542,h_576,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/cc6998_c5a3af3e395949779e7f24eb1cfa7a7d~mv2.png" alt="">
+        </div>
+        <div class="art-requirments-3-column-content">
+          <img src="https://static.wixstatic.com/media/cc6998_515aac7cd8224290be1f61f69b3879d1~mv2.png/v1/fill/w_590,h_576,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/cc6998_515aac7cd8224290be1f61f69b3879d1~mv2.png" alt="">
+        </div>     
+      </div>
+    </div>
+    <div class="art-requirements-content">
+      <div class="art-requirments--inner">
+        <h1>Simulated Color Seperations</h1>
+        <p>To reproduce photographic or full color images we must create simulated color separations. This is an additional cost from art time or screen setups to prepare the artwork for printing.</p>
+        <p>Simulated Color Separations are charged per color and are typically 7-10 colors to reproduce an image.</p>   
+      </div>
+    </div>
+    <div class="art-requirements-content art-requirements-3-column">
+      <h1>Examples:</h1>
+      <div class="art-requirments--inner art-requirment-3-column--inner">
+        <div class="art-requirments-3-column-content">
+          <img src="https://static.wixstatic.com/media/cc6998_0350257d8ce246af9c444631bd2bb0bc~mv2.png/v1/fill/w_542,h_576,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/cc6998_0350257d8ce246af9c444631bd2bb0bc~mv2.png" alt="">
+        </div>
+        <div class="art-requirments-3-column-content">
+          <img src="https://static.wixstatic.com/media/cc6998_c5a3af3e395949779e7f24eb1cfa7a7d~mv2.png/v1/fill/w_542,h_576,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/cc6998_c5a3af3e395949779e7f24eb1cfa7a7d~mv2.png" alt="">
+        </div>
+        <div class="art-requirments-3-column-content">
+          <img src="https://static.wixstatic.com/media/cc6998_515aac7cd8224290be1f61f69b3879d1~mv2.png/v1/fill/w_590,h_576,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/cc6998_515aac7cd8224290be1f61f69b3879d1~mv2.png" alt="">
+        </div>     
+      </div>
+    </div>
   </div>
 </div>
-<style type="text/css">
-
-  .tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-    margin:0 auto;
-  }
-
-/* Style the buttons that are used to open the tab content */
-.tab button {
-background-color: inherit;
-float: left;
-border: none;
-outline: none;
-cursor: pointer;
-padding: 14px 16px;
-transition: 0.3s;
-}
-
-/* Change background color of buttons on hover */
-.tab button:hover {
-background-color: #ddd;
-}
-
-/* Create an active/current tablink class */
-.tab button.active {
-background-color: #ccc;
-}
-
-/* Style the tab content */
-
-.tabcontent {
-display: none;
-padding: 6px 12px;
-border: 1px solid #ccc;
-border-top: none;
-margin: 0 auto;
-margin-bottom:50px;
-}
-.standardtabcontent {
-display:block;
-}
-.service-tab-container { 
-display:block;
-}
-
-</style>
-<script type="text/javascript">
-function openService(evt, serviceName) {
-// Declare all variables
-  var i, tabcontent, tablinks;
-
-// Get all elements with class="tabcontent" and hide them
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-
-// Get all elements with class="tablinks" and remove the class "active"
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-
-// Show the current tab, and add an "active" class to the button that opened the tab
-  document.getElementById(serviceName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-
-</script>
 
 {% schema %}
 {
-"name": "t:sections.main-page.name",
-"tag": "section",
-"class": "section",
-"settings": [
-{
-  "type": "header",
-  "content": "t:sections.all.padding.section_padding_heading"
-},
-{
-  "type": "range",
-  "id": "padding_top",
-  "min": 0,
-  "max": 100,
-  "step": 4,
-  "unit": "px",
-  "label": "t:sections.all.padding.padding_top",
-  "default": 36
-},
-{
-  "type": "range",
-  "id": "padding_bottom",
-  "min": 0,
-  "max": 100,
-  "step": 4,
-  "unit": "px",
-  "label": "t:sections.all.padding.padding_bottom",
-  "default": 36
-}
-]
+  "name": "t:sections.main-page.name",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+  {
+    "type": "header",
+    "content": "t:sections.all.padding.section_padding_heading"
+  },
+  {
+    "type": "range",
+    "id": "padding_top",
+    "min": 0,
+    "max": 100,
+    "step": 4,
+    "unit": "px",
+    "label": "t:sections.all.padding.padding_top",
+    "default": 36
+  },
+  {
+    "type": "range",
+    "id": "padding_bottom",
+    "min": 0,
+    "max": 100,
+    "step": 4,
+    "unit": "px",
+    "label": "t:sections.all.padding.padding_bottom",
+    "default": 36
+  }
+  ]
 }
 {% endschema %}

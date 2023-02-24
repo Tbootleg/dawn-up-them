@@ -3244,6 +3244,34 @@ details-disclosure > details {
   margin-bottom: 0px;
 }
 
+/* ART REQUIRMENTS PAGE */
+
+.art-requirements-content {
+    padding: 40px;
+}
+.art-requirements-content h1 {
+  margin-top:0px;
+}
+.art-requirment-2-column--inner {
+  display:flex;
+  gap: 80px;
+}
+.art-requirments-2-column-content {
+  width: 50%;
+}
+.art-requirment-3-column--inner {
+  display: flex;
+  gap: 80px;
+}
+.art-requirments-3-column-content {
+  width: 33.33%;
+}
+.art-requirements-content .art-requirments--inner img {
+  width: 100%;
+  height: auto;
+  border: none;
+}
+
 /* PROMOTIONAL PAGE */
 
 .promotional-multicolumn h2 {
