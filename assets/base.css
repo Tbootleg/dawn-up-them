@@ -2950,6 +2950,9 @@ details-disclosure > details {
 .page-width {
   max-width: 1200px;
 }
+#shopify-section-template--16189603053731__e4de9a6d-a24d-41e9-a28d-9d23ed25a292 .hero {
+  margin-bottom: 50px;
+}
 
 /*WHAT WE DO SECTION*/
 .service-multicolumn-2 .page-width .title-wrapper-with-link h2,
@@ -3000,10 +3003,16 @@ details-disclosure > details {
 .service-multicolumn .page-width {
   padding-bottom: 25px;
 }
+.service-multicolumn-2 {
+  margin-bottom:40px;
+}
 /*WE PRINT SECTION*/
 
 .we-love-printing-multicolumn {
   background-image: url(https://cdn.shopify.com/s/files/1/0621/6223/9651/files/AdobeStock_287102114_edited_edited_1.jpg?v=1676488676);
+  margin:40px 0px;
+  display:inline-block;
+  width:100%;
 }
 .we-love-printing-multicolumn .title {
   color: #fff;
@@ -3021,15 +3030,15 @@ details-disclosure > details {
 }
 
 /*WHY US SECTION*/
-
 .why-us-section {
   max-width: 1400px;
-  margin: 0 auto;
+  margin: 40px auto;
 }
 .why-us-section--inner {
   display: flex;
   padding: 40px;
   gap: 40px;
+  align-items: center;
 }
 .why-us-content--text{
   width: 70%;
@@ -3059,6 +3068,7 @@ details-disclosure > details {
 }
 .why-us-content--text li{
   list-style:none;
+  margin-bottom: 40px;
 }
 .why-us-content--text li::before{
 }
@@ -3441,14 +3451,26 @@ details-disclosure > details {
 .footer-photo-gallery {
   display: inline-block;
   width: 100%;
+  font-size:0;
 }
 .footer-photo-gallery-container {
-  display:flex;
+  display:inline-block;
+  width: 100%;
+}
+.footer-photo-gallery-item {
+  display:inline-block;
+  width: 16.6666%;
+  float:left;
 }
 .footer-photo-gallery--photo {
   width:100%;
   height:auto;
   display:block;
+}
+@media (max-width: 989px) {
+  .footer-photo-gallery-item {
+    width: 33.33%;
+  }
 }
 
 
