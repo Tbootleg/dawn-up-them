@@ -1,5 +1,52 @@
 {
   "sections": {
+    "6ed9ca2f-28de-4e3b-8d60-8654b8c8845e": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16191891472547__6ed9ca2f-28de-4e3b-8d60-8654b8c8845e-1678302664a19afb5c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fundraising",
+            "heading_size": "h1"
+          }
+        },
+        "template--16191891472547__6ed9ca2f-28de-4e3b-8d60-8654b8c8845e-1678302664a19afb5c-1": {
+          "type": "text",
+          "settings": {
+            "text": "Need help generating funds for your organization or cause? We have the process. Let us get you setup with a merch store and start making some money.",
+            "text_style": "body"
+          }
+        },
+        "template--16191891472547__6ed9ca2f-28de-4e3b-8d60-8654b8c8845e-1678302664a19afb5c-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16191891472547__6ed9ca2f-28de-4e3b-8d60-8654b8c8845e-1678302664a19afb5c-0",
+        "template--16191891472547__6ed9ca2f-28de-4e3b-8d60-8654b8c8845e-1678302664a19afb5c-1",
+        "template--16191891472547__6ed9ca2f-28de-4e3b-8d60-8654b8c8845e-1678302664a19afb5c-2"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "main": {
       "type": "fundraising-page",
       "settings": {
@@ -9,6 +56,7 @@
     }
   },
   "order": [
+    "6ed9ca2f-28de-4e3b-8d60-8654b8c8845e",
     "main"
   ]
 }
