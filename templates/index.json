@@ -179,7 +179,7 @@
           "type": "column",
           "settings": {
             "title": "100k+",
-            "text": "<p>SHIRTS PRINTED<\/p>",
+            "text": "<p>SHIRTS <\/p><p>PRINTED<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -188,7 +188,7 @@
           "type": "column",
           "settings": {
             "title": "500+",
-            "text": "<p>HAPPY CUSTOMERS<\/p>",
+            "text": "<p>HAPPY <\/p><p>CUSTOMERS<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -197,7 +197,7 @@
           "type": "column",
           "settings": {
             "title": "10K+",
-            "text": "<p>REDBULLS CONSUMED<\/p>",
+            "text": "<p>REDBULLS <\/p><p>CONSUMED<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -221,8 +221,8 @@
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     },
     "featured_collection": {
