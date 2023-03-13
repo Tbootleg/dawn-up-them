@@ -3076,10 +3076,13 @@ details-disclosure > details {
   font-family: 'Roboto';
   font-weight: 400;
   font-size: 28px;
+  margin-bottom: 5px;
 }
 .why-us-content--text p{
   font-family: 'Roboto',sans-serif;
   font-size: 20px;
+  margin-top:0;
+  line-height:1.5;
 }
 .why-us-content--video{
   width: 30%;
@@ -3609,11 +3612,7 @@ details-disclosure > details {
   height:auto;
   display:block;
 }
-@media (max-width: 989px) {
-  .footer-photo-gallery-item {
-    width: 33.33%;
-  }
-}
+
 
 
 /*FOOTER*/
@@ -3723,10 +3722,36 @@ details-disclosure > details {
 
 /*RESPONSIVE STYLES*/
 
-@media screen and (min-width: 330px) and (max-width: 757px) {
-  .we-love-printing-multicolumn .grid {
-    flex-direction: column;
+@media (max-width: 989px) {
+  .footer-photo-gallery-item {
+    width: 33.33%;
   }
+}
+@media (max-width: 920px){
+  .why-us-content--text h1 {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+  .why-us-content--text ul {
+    padding-left: 60px;
+  }
+  .why-us-content--text h2 {
+    font-size: 21px;
+    margin-bottom: 5px;
+  }
+  .why-us-content--text li::before {
+    font-size: 21px;
+    background: black;
+    width: 50px;
+    height: 50px;
+  }
+  .why-us-content--text p {
+    font-size:16px;
+  }
+}
+@media (max-width: 650px){
   .why-us-section--inner {
     flex-direction: column;
   }
@@ -3736,20 +3761,40 @@ details-disclosure > details {
   .why-us-content--video {
     width: 100%;
   }
-}
-
-@media screen and (max-width: 930px) {
-  .we-love-printing-multicolumn .multicolumn-card__info h3 {
-    font-size: 50px;
+  .testimonial-feed-wrapper {
+    flex-direction: column-reverse;
+  }
+  .testimonial-image {
+    width: 100%;
+  }
+  .testimonial-review {
+    width: 100%;
+  }
+  .service-page-intro-box--inner {
+    flex-direction:column-reverse;
+  }
+  .service-page-intro-box--inner .service-page-content--image {
+    width: 100%;
+    padding-top: 0px;
+  }
+  .service-page-intro-box--inner .service-page-content--text {
+    width: 100%;
+    padding-bottom: 0px;
   }
 }
 
-}
-@media screen and (min-width: 748px) {
+
+/*@media (max-width: 900){
   .why-us-section--inner {
-    flex-direction:column!important;
+    flex-direction: column;
   }
-}
+  .why-us-content--text {
+    width:100%;
+  }
+  .why-us-content--video {
+    width: 100%;
+  }
+}*/
 
 
 
