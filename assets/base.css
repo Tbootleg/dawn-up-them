@@ -3781,6 +3781,24 @@ details-disclosure > details {
     width: 100%;
     padding-bottom: 0px;
   }
+  .service-tab-container--inner {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .service-tab-container--inner .tab {
+    width: 100%;
+  }
+  .service-tab-container--inner .tab .tab--inner {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .service-tab-container--inner .tab button {
+    width: 50%;
+    flex: 1;
+  }
+  .service-tab-container--inner .tab-content-container {
+    width: 100%;
+  }
 }
 
 
