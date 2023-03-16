@@ -3821,6 +3821,9 @@ details-disclosure > details {
   .service-tab-container--inner .tabcontent {
     padding: 2px 24px;
   }
+  .service-page-intro-box--inner .service-page-content--text {
+    padding: 18px 20px;
+  }
 }
 
 
