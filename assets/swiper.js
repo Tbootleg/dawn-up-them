@@ -16,16 +16,7 @@ const swiper = new Swiper('.swiper', {
   pagination: {
     el: '.swiper-pagination',
   },
-
-   breakpoints: {  
-    '480': {
-      slidesPerView: 4,
-      spaceBetween: 40,},
-    '@640': {
-      slidesPerView: 5,
-      spaceBetween: 50, },
-  },
-
+  
   // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',

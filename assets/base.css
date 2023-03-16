@@ -3727,7 +3727,13 @@ details-disclosure > details {
     width: 33.33%;
   }
 }
-@media (max-width: 920px){
+@media (max-width: 934px){
+  .we-love-printing-multicolumn .multicolumn-card__info h3 {
+    font-size: 40px;
+  }
+  .we-love-printing-multicolumn .multicolumn-card__info .rte p{
+    font-size: 20px;
+  }
   .why-us-content--text h1 {
     font-family: 'Rajdhani', sans-serif;
     font-weight: 600;
@@ -3757,6 +3763,7 @@ details-disclosure > details {
   }
   .why-us-content--text {
     width: 100%;
+    padding: 0px;
   }
   .why-us-content--video {
     width: 100%;
