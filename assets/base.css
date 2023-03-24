@@ -3289,6 +3289,7 @@ details-disclosure > details {
 }
 .art-requirements-content h1 {
   margin-top:0px;
+  line-height:1;
 }
 .art-requirment-2-column--inner {
   display:flex;
@@ -3537,6 +3538,9 @@ details-disclosure > details {
 .globo-form-id-105798 .globo-form-app {
     max-width: 900px!important;
 }
+.art-requirements-content-outer {
+  padding: 20px;
+}
 
 
 /*TESTIMONIAL FEED*/
@@ -3732,6 +3736,21 @@ details-disclosure > details {
   .service-multicolumn .page-width {
     padding-bottom: 20px;
   }
+  .art-requirments--inner .art-requirments-3-column-content p{
+    line-height:1.5;
+  }
+  .art-requirments--inner .art-requirments-2-column-content p{
+    line-height:1.5;
+  }
+  .art-requirments--inner p {
+    line-height:1.5
+  }
+  .art-requirment-2-column--inner {
+    gap: 30px;
+  }
+  .art-requirment-3-column--inner {
+    gap: 30px;
+  }
 }
 @media (max-width: 934px){
   .service-multicolumn-2 .multicolumn-list li{
@@ -3774,6 +3793,9 @@ details-disclosure > details {
   .multicolumn-card__info {
     padding:1.5rem!important;
   }
+  .art-requirements-content h1 {
+    font-size: 24px;
+  }
   .service-page-content-box h3 {
     font-family: 'Rajdhani',sans-serif;
     font-weight: 600;
@@ -3805,6 +3827,10 @@ details-disclosure > details {
   }
 }
 @media (max-width: 650px){
+  .art-requirements-content {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
   .why-us-section--inner {
     flex-direction: column;
     padding-left: 1.5rem;
