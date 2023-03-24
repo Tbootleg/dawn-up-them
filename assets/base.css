@@ -3730,6 +3730,8 @@ details-disclosure > details {
 @media (max-width: 934px){
   .we-love-printing-multicolumn .multicolumn-card__info h3 {
     font-size: 40px;
+    font-family: Rajdhani,sans-serif;
+    font-weight:600;
   }
   .we-love-printing-multicolumn .multicolumn-card__info .rte p{
     font-size: 20px;
@@ -3826,6 +3828,25 @@ details-disclosure > details {
   }
   .service-tab-container--inner .tab .tab--inner {
     gap: 2px;
+  }
+}
+@media (max-width: 570px){
+  .we-love-printing-multicolumn .grid {
+    flex-direction: column;
+  }
+  .we-love-printing-multicolumn .grid--3-col-desktop .grid__item {
+    width: 100%;
+  }
+  .we-love-printing-multicolumn .grid--1-col-tablet-down .grid__item {
+    max-width: 100%;
+  }
+  .we-love-printing-multicolumn .multicolumn-card__info .rte p {
+    font-size: 28px;
+  }
+  .we-love-printing-multicolumn .multicolumn-card__info h3 {
+    font-size: 60px;
+    float:left;
+    margin-right: 20px;
   }
 }
 
