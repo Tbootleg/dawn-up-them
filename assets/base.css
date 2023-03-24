@@ -3002,7 +3002,7 @@ details-disclosure > details {
   padding-top:0px;
 }
 .service-multicolumn .page-width {
-  padding-bottom: 25px;
+  padding-bottom: 30px;
 }
 .service-multicolumn-2 {
   margin-bottom:40px;
@@ -3728,6 +3728,11 @@ details-disclosure > details {
   }
 }
 @media (max-width: 934px){
+  .service-multicolumn-2 .multicolumn-list li{
+    width: calc(50% - var(--grid-desktop-horizontal-spacing) * 2 / 1)!important;
+    max-width: calc(50% - var(--grid-desktop-horizontal-spacing) * 2 / 1)!important;
+    flex: unset;
+  }
   .we-love-printing-multicolumn .multicolumn-card__info h3 {
     font-size: 40px;
     font-family: Rajdhani,sans-serif;
@@ -3774,6 +3779,8 @@ details-disclosure > details {
 @media (max-width: 650px){
   .why-us-section--inner {
     flex-direction: column;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
   .why-us-content--text {
     width: 100%;
@@ -3787,9 +3794,13 @@ details-disclosure > details {
   }
   .testimonial-image {
     width: 100%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem
   }
   .testimonial-review {
     width: 100%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem
   }
   .service-page-intro-box--inner {
     flex-direction:column-reverse;
@@ -3833,6 +3844,7 @@ details-disclosure > details {
 @media (max-width: 570px){
   .we-love-printing-multicolumn .grid {
     flex-direction: column;
+    gap: 20px;
   }
   .we-love-printing-multicolumn .grid--3-col-desktop .grid__item {
     width: 100%;
