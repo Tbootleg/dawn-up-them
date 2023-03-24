@@ -3824,6 +3824,9 @@ details-disclosure > details {
   .service-page-intro-box--inner .service-page-content--text {
     padding: 18px 20px;
   }
+  .service-tab-container--inner .tab .tab--inner {
+    gap: 2px;
+  }
 }
 
 
