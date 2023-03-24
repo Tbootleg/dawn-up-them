@@ -3879,8 +3879,8 @@ details-disclosure > details {
     flex-wrap: wrap;
   }
   .service-tab-container--inner .tab button {
-    width: 50%;
     flex: 1;
+    border: 1px solid #ffffff;
   }
   .service-tab-container--inner .tab-content-container {
     width: 100%;
@@ -3892,7 +3892,7 @@ details-disclosure > details {
     padding: 18px 20px;
   }
   .service-tab-container--inner .tab .tab--inner {
-    gap: 2px;
+    gap: 0px;
   }
 }
 @media (max-width: 570px){
