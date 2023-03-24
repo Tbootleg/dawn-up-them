@@ -2971,6 +2971,9 @@ details-disclosure > details {
   float:right;
   margin-bottom: 20px;
 }
+.multicolumn-card .multicolumn-card__info .rte {
+  margin-top:0px;
+}
 .service-multicolumn .multicolumn-card__info .rte{
   margin-top:0px;
 }
@@ -3780,6 +3783,18 @@ details-disclosure > details {
   .service-page-content-box p {
     font-size:16px;
     line-height: 1.5;
+  }
+  .multicolumn-list .multicolumn-card__info h3 {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .service-multicolumn-2 .multicolumn-card__info .rte p,
+  .service-multicolumn .multicolumn-card__info .rte p{
+    font-size: 16px;
+  }
+  .service-multicolumn .multicolumn-card__info .link {
+    padding: 5px 10px;
   }
 }
 @media (max-width: 650px){
