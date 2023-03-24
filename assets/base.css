@@ -3771,8 +3771,8 @@ details-disclosure > details {
   }
 }
 @media (max-width: 749px) {
-  .service-multicolumn .multicolumn-card__info {
-    padding:1.5rem;
+  .multicolumn-card__info {
+    padding:1.5rem!important;
   }
   .service-page-content-box h3 {
     font-family: 'Rajdhani',sans-serif;
