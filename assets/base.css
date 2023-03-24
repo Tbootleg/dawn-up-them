@@ -3880,7 +3880,7 @@ details-disclosure > details {
   }
   .service-tab-container--inner .tab button {
     flex: 1;
-    border: 1px solid #ffffff;
+    border: 0.5px solid #ffffff;
   }
   .service-tab-container--inner .tab-content-container {
     width: 100%;
