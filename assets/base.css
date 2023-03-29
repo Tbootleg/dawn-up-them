@@ -3620,7 +3620,23 @@ details-disclosure > details {
   display:block;
 }
 
-
+/*BLOG POST*/
+.article-template .article-template__hero-container {
+  position:relative;
+  max-width:1200px;
+}
+.article-template .article-template__title {
+    margin-bottom: 0px;
+    position: absolute;
+    bottom: 0;
+    font-size: 90px;
+    max-width: 840px;
+    color: #ffffff;
+    font-weight: 600;
+    line-height: 0.8;
+    font-family: Rajdhani,sans-serif;
+    z-index:1;
+}
 
 /*FOOTER*/
 .footer-tagline-container {
@@ -3726,10 +3742,46 @@ details-disclosure > details {
   font-size: 18px;
 }
 
+/*BLOG STYLES*/
+
+.blog-content-container .blog-content-inner .featured-artists{
+  list-style: none;
+  display:flex;
+  padding:0px;
+}
+.blog-content-container .blog-content-inner .featured-artists img {
+  border:none;
+}
+.blog-content-container .blog-content-inner .featured-artists li {
+  text-align:center;
+}
+.blog-content-container .blog-content-inner .featured-artists li span {
+  display:inline-block;
+  width:100%;
+}
+.blog-content-container .blog-content-2column {
+  display: flex;
+  gap: 40px;
+  border-bottom: 1px dashed #333333;
+  padding-bottom: 40px;
+}
+.blog-content-container .blog-content-2column .left-content-text {
+  width:65%;
+}
+.blog-content-container .blog-content-2column .right-content-image {
+  width:35%;
+}
+
 
 /*RESPONSIVE STYLES*/
 
 @media (max-width: 989px) {
+  .blog-content-container .blog-content-inner .featured-artists{
+    flex-wrap:wrap;
+  }
+  .blog-content-container .blog-content-inner .featured-artists li {
+    width:50%;
+  }
   .footer-photo-gallery-item {
     width: 33.33%;
   }
