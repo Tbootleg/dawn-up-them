@@ -84,10 +84,10 @@
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
     "social_twitter_link": "",
-    "social_facebook_link": "",
+    "social_facebook_link": "https:\/\/www.facebook.com\/uniqueprintsatx\/",
     "social_pinterest_link": "",
-    "social_instagram_link": "",
-    "social_tiktok_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/uniqueprints\/",
+    "social_tiktok_link": "https:\/\/tiktok.com\/@uniqueprintsatx",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
     "social_youtube_link": "",
@@ -156,7 +156,7 @@
             "type": "text",
             "settings": {
               "heading": "Contact Us",
-              "subtext": "<ul><li><span>13800 Dragline Dr Ste A<br>Austin, TX 78728<\/span><\/li><li><span>info@uniqueprints.bix<\/span><\/li><li><span>(512) 294-0715<\/span><\/li><\/ul>"
+              "subtext": "<ul><li>13800 Dragline Dr Ste A<br\/>Austin, TX 78728<\/li><li>info@uniqueprints.biz<\/li><li>(512) 294-0715<\/li><\/ul>"
             }
           }
         },
