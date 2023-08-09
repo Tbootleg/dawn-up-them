@@ -3639,6 +3639,10 @@ details-disclosure > details {
 }
 
 /*FOOTER*/
+.footer__list-social li svg{
+  height: 4em!important;
+  width: 4em!important;
+}
 .footer-tagline-container {
   max-width: 1400px;
   margin:0 auto;
@@ -3712,7 +3716,7 @@ details-disclosure > details {
   position:relative;
 }
 .footer-block:nth-of-type(3) ul li{
-  color: #fff;
+  color: #ffffff;
   margin-bottom: 20px;
   line-height: 1.4;
   margin-left: 5px;
