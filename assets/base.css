@@ -2896,12 +2896,26 @@ details-disclosure > details {
 .header-wrapper{
   background: #000000;
 }
+.header_social_icons {
+  list-style:none;
+  align-self:center;
+  margin:0;
+}
+.header_social_icons li {
+  display:inline-block;
+}
+.header_social_icons .list-social__item .list-social__link {
+  color:#3d9be9;
+}
 .announcement-bar {
   background: #000000;
   border-bottom: 1px solid #ffffff;
+  display:flex;
+  justify-content:center;
 }
 .announcement-bar__message {
   color: #f9ffab;
+  align-self: center;
 }
 .header-wrapper .header__inline-menu .list-menu--inline .header__active-menu-item {
   color: #FE6060;
